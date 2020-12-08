@@ -2,6 +2,7 @@ import React from 'react';
 import "./Home.css";
 import { Link } from "react-router-dom";
 import AppIcon from "@material-ui/icons/Apps";
+import {Avatar} from "@material-ui/core";
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
             <Link to="/about">Gmail</Link>
             <Link to="/about">Image</Link>
             <AppIcon />
+            <Avatar/>
             </div>
             
 
