@@ -4,9 +4,15 @@ import "./Home.css";
 
 function Home() {
     return (
-        <div>
+        <div className="home">
             <h1>This is HOMEPAGE</h1>
             <div className="home_header">
+            <div className="home_headerLeft">
+
+            </div>
+            <div className="home_headerRight">
+            
+            </div>
 
             </div>
             <div className="home_body"></div>
