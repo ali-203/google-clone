@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import AppIcon from "@material-ui/icons/Apps";
 import {Avatar} from "@material-ui/core";
 import img1 from "./image/dp.png";
+import { Search } from '@material-ui/icons';
 
 
 function Home() {
@@ -24,6 +25,9 @@ function Home() {
             </div>
             <div className="home_body">
             <img src={img1} alt="" />
+            <div className="home_inputContainer">
+                <Search />
+            </div>
             
 
             </div>
