@@ -17,3 +17,10 @@
     font-size: medium;
     border: none;
 }
+.search_input > input:focus {
+    outline-width: 0;
+}
+
+.search_inputIcon {
+
+}
