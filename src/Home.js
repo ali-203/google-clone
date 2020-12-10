@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import AppIcon from "@material-ui/icons/Apps";
 import {Avatar} from "@material-ui/core";
 import img1 from "./image/dp.png";
-import { Search } from '@material-ui/icons';
+import Search from "./Search";
 
 
 function Home() {
