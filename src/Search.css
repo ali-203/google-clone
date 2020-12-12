@@ -49,6 +49,9 @@
     color: #222;
 
 }
+.search_buttonHidden {
+    display: none !important
+}
 
 
 
