@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 
 
 
-function Search() {
+function Search( {hideButtons = false}) {
     const [input, setInput] = useState("");
     const history = useHistory();
 
@@ -25,11 +25,18 @@ function Search() {
             <input value={input} onChange={e => setInput(e.target.value)}/>
             <MicIcon />
         </div>
+        {!hideButtons ? (
             <div className="search_buttons">
             <Button type="submit" onClick={search} variant="outlined">Google Search</Button>
             <Button variant="outlined">I'm Feeling Lucky</Button>
 
             </div>
+        ) :(  <div className="search_buttons">
+            <Button type="submit" onClick={search} variant="outlined">Google Search</Button>
+            <Button variant="outlined">I'm Feeling Lucky</Button>
+
+            </div>)
+        }
         </form>
     );
 }
